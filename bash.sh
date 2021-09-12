@@ -36,21 +36,21 @@ commit_date="2021-09-12"
 create_python_file "data_collection/real_time_market_data.py" "# Code to collect real-time market data"
 update_commit_messages "Data Collection Layer: Real-time Market Data" "Added code for collecting real-time market data."
 git add .
-git commit --date="$commit_date" --author="Automated Script <script@auto.com>" -m "Data Collection Layer: Real-time Market Data"
+git commit --date="$commit_date" --author="" -m "Data Collection Layer: Real-time Market Data"
 commit_date=$(date -I -d "$commit_date + 1 day")
 
 # Historical Data
 create_python_file "data_collection/historical_data.py" "# Code to collect and store historical data"
 update_commit_messages "Data Collection Layer: Historical Data" "Added code for storing historical data."
 git add .
-git commit --date="$commit_date" --author="Automated Script <script@auto.com>" -m "Data Collection Layer: Historical Data"
+git commit --date="$commit_date" --author="" -m "Data Collection Layer: Historical Data"
 commit_date=$(date -I -d "$commit_date + 1 day")
 
 # News & Social Media Feeds
 create_python_file "data_collection/news_social_media_feeds.py" "# Code to collect news and social media feeds for sentiment analysis"
 update_commit_messages "Data Collection Layer: News & Social Media Feeds" "Added code for collecting news and social media feeds."
 git add .
-git commit --date="$commit_date" --author="Automated Script <script@auto.com>" -m "Data Collection Layer: News & Social Media Feeds"
+git commit --date="$commit_date" --author="" -m "Data Collection Layer: News & Social Media Feeds"
 commit_date=$(date -I -d "$commit_date + 1 day")
 
 # ... (Add all the other features and advanced features in a similar manner)

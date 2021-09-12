@@ -1,3 +1,12 @@
 -e Data Collection Layer: Real-time Market Data
 Added code for collecting real-time market data.
 
+-e Data Collection Layer: Historical Data
+Added code for storing historical data.
+
+-e Data Collection Layer: News & Social Media Feeds
+Added code for collecting news and social media feeds.
+
+-e Data Collection Layer: Real-time Market Data
+Added code for collecting real-time market data.
+
